@@ -1,1 +1,2 @@
+Linear Search - N
 Binary Search - log N
