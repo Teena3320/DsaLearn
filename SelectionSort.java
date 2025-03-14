@@ -3,7 +3,7 @@ import java.util.Arrays;
 
 public class SelectionSort {
   public static void main(String[] args) {
-    int[] arr={4,5,1,2,3};
+    int[] arr={4,-5,1,-902,-3098};
     System.out.println(Arrays.toString(insertionSort(arr)));
   }
 
@@ -19,14 +19,15 @@ public class SelectionSort {
   }
 
   static int max(int[] arr, int end){
-    int max=0;
+    int max=arr[0];
     int maxindex=0;
-    for(int i=0; i<end; i++){
+    for(int i=0; i<=end; i++){
       if(arr[i]>max){
         max=arr[i];
         maxindex=i;
       }
     }
+    // System.out.println(max);
     return maxindex;
   }
 
