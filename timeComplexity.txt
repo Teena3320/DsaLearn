@@ -4,3 +4,5 @@ Bubble Sort    - N^2 -Worst case
                - N   -Best case
 Selection Sort - N^2 -Worst case
                - N   -Best case
+Insertion Sort - N^2 -Worst case
+               - N   -Best case
